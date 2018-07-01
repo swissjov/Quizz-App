@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+	android:background="#9A9A9A"
+	android:orientation="vertical">
+
+    <TextView
+        android:text="A simple Ethical Hacker quiz app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:background="#575757"
+		android:textColor="#FFFFFF"
+		android:textSize="30sp"/>
+
+	<TextView
+        android:text="What makes WEP so easily crackable?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textSize="22sp"
+		android:paddingTop="80dp"
+		android:paddingLeft="55dp"
+		android:paddingBottom="60dp"
+		android:textColor="#000000"/>
+	
+	
+	<RadioGroup 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/radiogroup" 
+		android:orientation="vertical">
+		
+	<RadioButton 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="The length of the key" 
+		android:checked="true" 
+		android:id="@+id/radio1"/> 
+	
+		<TextView
+			android:id="@+id/button_id"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:padding="5dp"
+			android:text="" />
+	
+	<RadioButton 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="Th weakness of the IV" 
+		android:id="@+id/radio2"/> 
+	
+	</RadioGroup>
+	
+	<TextView
+		android:id="@+id/button_id"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:padding="80dp"
+		android:text="" />
+	
+	<Button
+		android:background="#575757"
+		android:textColor="#FFFFFF"
+		android:id="@+id/button_id"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Check" />
+	
+
+
+</LinearLayout>
